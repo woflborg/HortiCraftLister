@@ -13,3 +13,7 @@ How to use:
 
 Inventory is not saved, but prices are. 
 
+
+Requirements: 
+-Have python 3 to run the script with. 
+-Tested with poe in fullscreen window mode, but probably works otherwise too. 
