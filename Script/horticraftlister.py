@@ -64,7 +64,7 @@ class HortiCraftLister(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSetPrice, id=setPrice.GetId())
 
         btnPanel.SetSizer(vbox)
-        hbox.Add(btnPanel, 0.6, wx.EXPAND | wx.RIGHT, 20)
+        hbox.Add(btnPanel, 0, wx.EXPAND | wx.RIGHT, 20)
         panel.SetSizer(hbox)
 
         self.LoadPrices()
@@ -99,7 +99,7 @@ class HortiCraftLister(wx.Frame):
             if(sel > -1):
                 text = self.GetActualCraftName(self.listbox.GetString(sel))
                 self.listBoxPrices[text] = newPrice
-                print(text)
+                #print(text)
         self.SavePrices()                
         self.UpdateListBoxGui()
         
@@ -160,7 +160,7 @@ class HortiCraftLister(wx.Frame):
             with open('prices.json') as json_file: 
                 data = json.load(json_file)
                 self.listBoxPrices = data
-        print(self.listBoxPrices)
+        #print(self.listBoxPrices)
             
     def UpdateListBoxGui(self):
         self.listbox.Clear()
@@ -177,7 +177,7 @@ class HortiCraftLister(wx.Frame):
                         itemName = itemName +  " | " + str(self.listBoxPrices[item])
                     self.listbox.Append(itemName)
             self.listbox.Append(" ")
-        print(self.listBoxPrices)
+        #print(self.listBoxPrices)
 
     def OrderedCategories(self):
         categories = {"Augment": "Augment", "Remove": "Remove(?!.*add).*$", "Remove\Add": "Remove.*add", "Change": "Change"}
