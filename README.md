@@ -27,9 +27,9 @@ Requirements:
 
 3) Download them with these commands:
 
-	3.1) python -m pip install wxPython==4.1.0
+	3.1) py -m pip install wxPython==4.1.0
 
-	3.2) python -m pip install pywin32==228
+	3.2) py -m pip install pywin32==228
 
 4) Tested with poe in fullscreen window mode, but probably works otherwise too. 
 5) Inventory is not saved, but prices are saved in a json file. 
