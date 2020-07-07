@@ -21,13 +21,13 @@ Requirements:
 1) Have python 3 to run the script with. 
 2) Have these modules installed:
 
- wxPython==4.1.0
- pywin32==228
+2.1) wxPython==4.1.0
+2.2) pywin32==228
 
 3) Download them with these commands:
 
- python -m pip install wxPython==4.1.0
- python -m pip install pywin32==228
+3.1) python -m pip install wxPython==4.1.0
+3.1) python -m pip install pywin32==228
 
 4) Tested with poe in fullscreen window mode, but probably works otherwise too. 
 5) Inventory is not saved, but prices are saved in a json file. 
