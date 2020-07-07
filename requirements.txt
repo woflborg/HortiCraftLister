@@ -1,0 +1,2 @@
+python -m pip install wxPython==4.1.0
+python -m pip install pywin32==228
