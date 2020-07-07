@@ -1,17 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-ZetCode wxPython tutorial
-
-In this example we create review
-layout with wx.FlexGridSizer.
-
-author: Jan Bodnar
-website: www.zetcode.com
-last modified: April 2018
-"""
-
 import wx
 import win32clipboard
 import threading
