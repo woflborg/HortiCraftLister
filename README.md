@@ -22,11 +22,13 @@ Requirements:
 2) Have these modules installed:
 
 2.1) wxPython==4.1.0
+
 2.2) pywin32==228
 
 3) Download them with these commands:
 
 3.1) python -m pip install wxPython==4.1.0
+
 3.1) python -m pip install pywin32==228
 
 4) Tested with poe in fullscreen window mode, but probably works otherwise too. 
