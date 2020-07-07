@@ -3,7 +3,7 @@ Tool for listing crafts from stash to trove
 
 How to get it:
 
-1) Grab the script from https://github.com/woflborg/HortiCraftLister/blob/master/Script/horticraftlister.py and save it somewhere on your machine
+1) Grab the script from https://github.com/woflborg/HortiCraftLister/tree/master/Script/horticraftlister.py and save it somewhere on your machine
 2) Start it with python 3 
    (on windows with python installed this can be done by doubleclicking the script you downloaded)
 
